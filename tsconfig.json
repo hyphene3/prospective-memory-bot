@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "dist",
+      "moduleResolution": "Node",
+      "sourceMap": true
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended",
+    "include": ["src/**/*"]
+    //"files":["src/app.ts", "src/command/CommandHandler.ts", "src/command/ArgConfig.ts", "src/command/getSignature.ts", "src/command/getInvalidUsageMessage.ts", "src/command/InvalidMessageFormatError.ts", "src/util/AsyncLockMap.ts", "src/util/AsyncLock.ts", "src/command/MessageEventHandler.ts", "src/session/SessionManager.ts", "src/session/RCSession.ts", "./src/RCSessionController.ts", "src/util/CancellableEvent.ts", "src/util/CancellableEventHandler.ts", "src/session/RCData.ts", "src/data/User.ts", "src/data/UserAttributes.ts", "src/data/sequelize.ts"]
+  }
